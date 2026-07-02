@@ -8,6 +8,7 @@ const Navbar = () => {
       <NavLink to='service' >Service</NavLink>
       <NavLink to='register' >Register</NavLink>
       <NavLink to='login' >Login</NavLink>
+      <NavLink to='forgetpassword'>ForgetPassword</NavLink>
     </div>
   )
 }
