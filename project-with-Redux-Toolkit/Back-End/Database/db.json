@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+            "id": 101,
+            "username": "Vikram Mistry",
+            "email": "v@gmail.com",
+            "password": "123",
+            "isAdmin": true
+        }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "title": "Essence Mascara",
+            "description": "Achieve dramatic lashes with this formula.",
+            "category": "beauty",
+            "price": 9.99
+        }
+    ],
+    
+    "cart": [
+        {
+            "id": 1,
+            "name": "Wireless Mouse",
+            "price": 799,
+            "quantity": 2,
+            "image": "https://example.com/images/mouse.jpg"
+        }
+    ]
+}
