@@ -1,9 +1,13 @@
-
+import { useEffect } from "react"
+import { getUsers } from "./store/UserAction";
+import Layout from "./components/Layout/Layout";
+import { useDispatch } from 'react-redux';
 const App = () => {
-  
+  const dispatch = useDispatch();
+  useEffect(() => { dispatch(getUsers()) }, []);
   return (
     <div>
-      <h1>App</h1>
+      <Layout />
     </div>
   )
 }
