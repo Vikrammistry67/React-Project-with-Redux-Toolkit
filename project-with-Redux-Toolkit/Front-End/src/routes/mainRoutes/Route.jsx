@@ -1,13 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Service from '../pages/Service';
-import Register from '../pages/User/Register';
-import Login from '../pages/User/Login';
+import Home from '../../pages/Home/Home';
+import About from '../../pages/navpages/About';
+import Contact from '../../pages/navpages/Contact';
+import Register from '../../pages/auth/Register';
+import Login from '../../pages/auth/Login';
 import CreateProduct from '../../pages/Product/CreateProduct';
 import UpdateProduct from '../../pages/Product/UpdateProduct';
-import ForgetUser from '../pages/User/ForgetUser';
+import ForgetUser from '../../pages/auth/ForgetUser';
 import PageNotFound from '../../pages/PageNotFound/PageNotFound';
 import App from '../../App';
 
@@ -28,10 +27,6 @@ const Route = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact />
-            },
-            {
-                path: '/service',
-                element: <Service />
             },
 
 
