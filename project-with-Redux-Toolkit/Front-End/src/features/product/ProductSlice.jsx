@@ -1,7 +1,19 @@
-const ProductSlice = () => {
-    return (
-        <div>ProductSlice</div>
-    )
-}
+import { createSlice } from "@reduxjs/toolkit";
 
-export default ProductSlice
+const initialState = {
+    data: []
+};
+
+
+const productSlice = createSlice({
+    name: 'product',
+    initialState,
+    reducers: {
+        loadProduct: (state, action) => {
+            state.data = action.payload;
+         }
+    }
+});
+
+export const { loadProduct } = productSlice.actions;
+export default productSlice.reducer;

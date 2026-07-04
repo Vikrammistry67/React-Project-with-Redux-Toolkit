@@ -1,31 +1,51 @@
 {
-    "users": [
-        {
-            "id": 101,
-            "username": "Vikram Mistry",
-            "email": "v@gmail.com",
-            "password": "123",
-            "isAdmin": true
-        }
-    ],
-
-    "products": [
-        {
-            "id": 1,
-            "title": "Essence Mascara",
-            "description": "Achieve dramatic lashes with this formula.",
-            "category": "beauty",
-            "price": 9.99
-        }
-    ],
-    
-    "cart": [
-        {
-            "id": 1,
-            "name": "Wireless Mouse",
-            "price": 799,
-            "quantity": 2,
-            "image": "https://example.com/images/mouse.jpg"
-        }
-    ]
+  "users": [
+    {
+      "id": "101",
+      "username": "Vikram Mistry",
+      "email": "v@gmail.com",
+      "password": "123",
+      "isAdmin": true
+    },
+    {
+      "username": "vikram mistry",
+      "email": "mistryv414@gmail.com",
+      "password": "v",
+      "confirmPassword": "v",
+      "id": "a3ZEbqI1Hzw"
+    },
+    {
+      "username": "Yatharth Deshmukh",
+      "email": "mistryv414@gmail.com",
+      "password": "y",
+      "confirmPassword": "yy",
+      "id": "S__47i85vCw"
+    },
+    {
+      "username": "Yatharth Deshmukh",
+      "email": "mistryv414@gmail.com",
+      "password": "y",
+      "confirmPassword": "y",
+      "id": "C9ICqQVfQrM"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Essence Mascara",
+      "description": "Achieve dramatic lashes with this formula.",
+      "category": "beauty",
+      "price": 9.99
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "price": 799,
+      "quantity": 2,
+      "image": "https://example.com/images/mouse.jpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

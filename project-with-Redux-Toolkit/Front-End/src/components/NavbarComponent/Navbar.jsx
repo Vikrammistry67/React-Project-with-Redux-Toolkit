@@ -5,10 +5,9 @@ const Navbar = () => {
       <NavLink to='/' >Home</NavLink>
       <NavLink to='about' >About</NavLink>
       <NavLink to='contact' >Contact</NavLink>
-      <NavLink to='service' >Service</NavLink>
       <NavLink to='register' >Register</NavLink>
       <NavLink to='login' >Login</NavLink>
-      <NavLink to='forgetpassword'>ForgetPassword</NavLink>
+      <NavLink to='forget-user'>ForgetPassword</NavLink>
     </div>
   )
 }
